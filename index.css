@@ -1,0 +1,72 @@
+.custom-link a{
+	color: white;
+}
+
+.my-header {
+	padding-top: calc(6rem + 74px);
+  	padding-bottom: 6rem;
+  	/*background-color: #1abc9c!important;*/
+}
+
+.my-header .my-frame img {
+	border-radius: 50%;
+    border-top: 2px solid #f8f9fa;
+    border-bottom: 2px solid #f8f9fa;
+    border-left: 2px solid #f8f9fa;
+    border-right: 2px solid #f8f9fa;
+    position: relative;
+}
+
+.my-header .my-heading {
+	/*font-size: 2.75rem;*/
+	line-height: 2.75rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-header .my-logo-frame img {
+	/*border-radius: 50%;*/
+    border-top: 2px solid #f8f9fa;
+    border-bottom: 2px solid #f8f9fa;
+    border-left: 2px solid #f8f9fa;
+    border-right: 2px solid #f8f9fa;
+    position: relative;
+    /*background-color: white;*/
+}
+
+@media (min-width: 992px){
+	.my-header {
+	    padding-top: calc(6rem + 104px);
+    	padding-bottom: 6rem;
+	}
+
+}
+
+@media (min-width:1024px) {
+	.my-header .my-frame img {
+		border-radius: 50%;
+	    border-top: 2px solid #f8f9fa;
+	    border-bottom: 2px solid #f8f9fa;
+	    border-left: 2px solid #f8f9fa;
+	    border-right: 2px solid #f8f9fa;
+	    position: relative;
+	    width: 250px;
+	    height: 250px;
+	}
+}
+
+@media (max-width: 769px) {
+
+	.my-header .my-heading {
+		font-size: 1.5rem;
+		line-height: 2.75rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.next-line {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
