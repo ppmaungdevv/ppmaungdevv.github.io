@@ -4,96 +4,196 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- Ubuntu font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 
-	<!-- Custom fonts for this theme -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<!-- tailwind CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
 
-	<!-- custom css -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		body{
+			font-family: 'Ubuntu', sans-serif;
+		}
+	</style>
 
     <title>Pyae Phyo Maung</title>
   </head>
   <body>
     
-	  <!-- <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-	    <div class="container custom-link">
-	      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-	        Menu
-	        <i class="fas fa-bars"></i>
-	      </button>
-	      <div class="collapse navbar-collapse" id="navbarResponsive">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item mx-0 mx-lg-1">
-	            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-	          </li>
-	          <li class="nav-item mx-0 mx-lg-1">
-	            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-	          </li>
-	          <li class="nav-item mx-0 mx-lg-1">
-	            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-	          </li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav> -->
-
-	  <header class="my-header bg-light text-center">
-	  	<div class="container d-flex flex-column">
-			
-			<div class="row">
-
-				<div class="col-md-6">
-					<div class="container-fluid">
-						<div class="my-frame mb-2">
-			  				<img src="assets/ppm.JPG" width="200" height="200">
-			  			</div>
-					</div>
+	<div class="min-h-screen p-4 bg-gradient-to-b from-[#afc9dc] to-[#f2f4f6] text-[#2b2b2b]">
+		<div class="container mx-auto my-5">
+		  <div class="flex items-center justify-center p-5">
+			  <img class="h-44 w-44 rounded-full border shadow-lg" src="assets/PPM_CU_1.png" alt="ppm_cu_img">
+		  </div>
+		  <div class="lg:p-4 mt-5">
+			<h1 class="text-4xl mb-6 text-center font-extrabold">About Me</h1>
+			<div class="flex w-full items-center justify-center text-2xl font-light text-left">
+			  <div class="w-full md:w-2/3">
+				<p class="p-2 mb-2">Hi. I'm Pyae Phyo Maung</p>
+				<p class="p-2 mb-2">I've been working as a Web Developer for 4 years and learning to become a forntend developer with a decent UI/UX skills</p>
+				<p class="p-2 mb-2">
+				  I'm currently developing an online gift system, as a Senior Developer, with Vue.js, Node.js, Serverless Framework and AWS Services at 
+				  <a class="text-[#536976] underline" href="https://scala-next.jp/">Scala Next, Inc. ( Mandalay Branch )</a>
+				</p>
+				<p class="p-2 mb-2">In my previous role as junior backend developer at L-future Network Technology Co., Ltd., I developed the company's portfolio website and online bus tickets service using Laravel and Vue.js </p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="lg:p-4 mt-5">
+			<h1 class="text-4xl mb-6 text-center font-extrabold">Technical Skills</h1>
+			<div class="flex items-center justify-between w-full md:w-1/3 text-2xl font-light text-left mx-auto p-2 mt-3">
+				<div class="flex items-center justify-center bg-[#f2f4f6] shadow-xl w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/vue-svgrepo-com.svg">
 				</div>
-
-				<div class="col-md-6">
-					<div class="container">
-						<div class="row text-center mobile-font">
-							<h2 class="my-heading">Hello, <span class="next-line">I'm eayp oyhp gnuam</span></h2>
-							<br>
-							<h5 style="margin-left: auto; margin-right: auto ">I'm backend developer <span class="next-line">(especially laravel)</span></h5>	
-						</div>
-						<div class="my-logo-frame" style="margin-top: 6px">
-							<img src="assets/laravel.svg" width="50">
-							<img src="assets/laravel.svg" width="50">
-							<img src="assets/laravel.svg" width="50">
-						</div>
-						<div>
-							<a href="mailto:ppmaungdev@gmail.com" target="_top"><small>ppmaungdev@gmail.com</small></a>
-						</div>
-					</div>
-					
-					
-					
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/tailwindcss-icon-svgrepo-com.svg">
 				</div>
-	  		</div>
-
-	  		
-
-	  	</div>
-	  </header>
-
-	  <div class="container-fluid d-flex flex-column bg-secondary" style="padding-top: 5px">
-			
-			
-			<h2 class="text-center text-uppercase"> <strong> About </strong></h2>
-
-	  		
-
-	  	</div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-6 h-6" src="assets/bootstrap-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/nuxt-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/svelte-icon-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/react-svgrepo-com.svg">
+				</div>
+			</div>
+			<div class="flex items-center justify-around w-full md:w-1/3 text-2xl font-light text-left mx-auto p-2 mt-2">
+				<div class="flex items-center justify-center bg-[#f2f4f6] shadow-xl w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-8 h-8" src="assets/nodejs-svgrepo-com.svg">
+					<!-- nodejs-icon-svgrepo-com.svg -->
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/aws-dynamodb-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-6 h-6" src="assets/mysql-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/serverless-svgrepo-com (1).svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/laravel.svg">
+				</div>
+			</div>
+			<div class="flex items-center justify-around w-full md:w-1/4 text-2xl font-light text-left mx-auto p-2 mt-2">
+				<div class="flex items-center justify-center bg-[#f2f4f6] shadow-xl w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/aws-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/ubuntu-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-6 h-6" src="assets/git-icon-svgrepo-com.svg">
+				</div>
+				<div class="flex items-center justify-center w-10 h-10 bg-white rounded-full p-1 mr-1">
+					<img class="w-7 h-7" src="assets/docker-svgrepo-com.svg">
+				</div>
+			</div>
+			<div class="flex flex-col w-full justify-around text-2xl font-light text-left mx-auto p-1 mt-5">
+			  <!-- Frontend -->
+			  <div class="w-full md:w-auto p-1 md:px-2">
+				<h3 class="text-3xl mb-3 text-center font-medium">Frontend</h3>
+				<div class="flex justify-center">
+				  <div class="w-full md:w-2/3 py-2">
+					<ul class="list-disc list-inside md:list-outside">
+					  <li class="p-1">Vue.js</li>
+					  <li class="p-1">Tailwind css</li>
+					  <li class="p-1">Bootstrap</li>
+					  <li class="p-1">Nuxt <small class="text-xs">( currently learning )</small></li>
+					  <li class="p-1">Svelte <small class="text-xs">( basic knowledge )</small></li>
+					  <li class="p-1">React <small class="text-xs">( basic knowledge )</small></li>
+					  <li class="p-1">HTML/CSS</li>
+					  <li class="p-1">JavaScript</li>
+					  <li class="p-1">JQuery</li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Backend -->
+			  <div class="w-full md:w-auto p-1 md:px-2 mt-5">
+				<h3 class="text-3xl mb-3 text-center font-medium">Backend</h3>
+				<div class="flex justify-center">
+				  <div class="w-full md:w-2/3 py-2">
+					<ul class="list-disc list-inside md:list-outside">
+					  <li class="p-1">Node.js/Express</li>
+					  <li class="p-1">DynamoDB</li>
+					  <li class="p-1">MySQL</li>
+					  <li class="p-1">Serverless Framework</li>
+					  <li class="p-1">AWS SDKs</li>
+					  <li class="p-1">Laravel</li>
+					  <li class="p-1">REST APIs</li>
+					  <li class="p-1">OpenAPI Specification</li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			  <!-- AWS Services -->
+			  <div class="w-full md:w-auto p-1 md:px-2 mt-5">
+				<h3 class="text-3xl mb-3 text-center font-medium">AWS Services</h3>
+				<div class="flex justify-center">
+				  <div class="w-full md:w-2/3 py-2">
+					<ul class="list-disc list-inside md:list-outside">
+					  <li class="p-1">Lambda</li>
+					  <li class="p-1">S3</li>
+					  <li class="p-1">Cognito</li>
+					  <li class="p-1">API Gateway</li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			  <!-- others -->
+			  <div class="w-full md:w-auto p-1 md:px-2 mt-5">
+				<h3 class="text-3xl mb-3 text-center font-medium">Others</h3>
+				<div class="flex justify-center">
+				  <div class="w-full md:w-2/3 py-2">
+					<ul class="list-disc list-inside md:list-outside">
+					  <li class="p-1">Ubuntu</li>
+					  <li class="p-1">Digital Ocean</li>
+					  <li class="p-1">Git</li>
+					  <li class="p-1">Scrum</li>
+					  <li class="p-1">Docker <small class="text-xs">( basic knowledge )</small></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+	
+		  <div class="lg:p-4 mt-5">
+			<h1 class="text-4xl mb-6 text-center font-extrabold">Conclusion</h1>
+			<div class="flex w-full items-center justify-center text-2xl font-light text-left">
+			  <div class="w-full md:w-2/3">
+				<p class="p-2 mb-2">Thanks for reading down to this part</p>
+				<p class="p-2 mb-2">
+				  I'm looking for a new opportunity as a Frontend Developer right now and if you have an open poisiton that's suited for me, you can connect me on 
+				  	<span class="text-[#0058B6]">LinkedIn 
+						<!-- <font-awesome-icon :icon="['fa-brands', 'fa-linkedin']" /> -->
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+					</span>
+				</p>
+				<p class="p-2 mb-2">
+				  If you want to know how this portfolio is done, check on my 
+					<span class="text-[#000]">GitHub 
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</span>
+					<!-- <font-awesome-icon :icon="['fa-brands', 'fa-github']" /> -->
+					<!-- <a class="text-[#536976] underline" href="https://scala-next.jp/">Scala Next, Inc. ( Mandalay Branch )</a> -->
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		</div>
+	  </div>
+	  
   </body>
 </html>
