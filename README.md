@@ -1,5 +1,5 @@
 # My Portfolio Repo
-Just a minimal porfolio page for myself. I just used nomral HTML file, Tailwind CSS with CDN and a bit of vanilla JS for animation.
+Just a minimal porfolio page for myself. I just use nomral HTML file, Tailwind CSS with CDN and a bit of vanilla JS for animation.
 <br/>
 <br/>
 
